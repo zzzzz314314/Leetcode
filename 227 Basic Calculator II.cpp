@@ -30,9 +30,9 @@ public:
             // finally, we will only have +3, +2 in stack
             if (c == '+' || c == '-' || c == '*' || c == '/' || i == s.length()-1)
             {
-                // this c is not the same as sign
-                // the sign is the one before the number, c is the one after
-                // the order: sign number c
+                // this c is not the same as op
+                // the op is the one before the number, c is the one after
+                // the order: op number c
                 // as long as we see some operators (not digit number), we can push the signed number into the stack, and end a small round (renew op and number)
                 if (op == '+') 
                     st.push(number);
