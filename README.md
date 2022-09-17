@@ -21,3 +21,9 @@ for (int i = 0; i < vec.size(); i++)
 - 84 Largest Rectangle in Histogram
 - 85 Maximal Rectangle
 - 907 Sum of Subarray Minimums
+
+
+### String Parsing
+- 224 Basic Calculator
+- 227 Basic Calculator II
+- 772 Basic Calculator III
